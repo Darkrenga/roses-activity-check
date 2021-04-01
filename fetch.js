@@ -20,6 +20,7 @@ function fetchData(apiUrl) {
 
 
 function createView (members) {
+    console.log("Starting to fetch members lastjoin")
     for (const member of members) {
         let memberInfo = `<div id="${member.name}" class="playerName">
         <span>${member.name} Was Last Online: </span><span id="${member.uuid}">Couldn't find date</span>
