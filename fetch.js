@@ -58,7 +58,7 @@ function addToView(data) {
     let lastOnlineYear = lastOnline.slice(0, 4);
     let lastOnlineMonth = lastOnline.slice(5, 7);
     let lastOnlineDay = lastOnline.slice(8, 10);
-    let lastOnlineFinal = lastOnlineMonth + '-' + lastOnlineDay + '-' + lastOnlineYear;
+    let lastOnlineFinal = lastOnlineDay + '-' + lastOnlineMonth+ '-' + lastOnlineYear;
 
     lastOnlineOut.innerHTML = lastOnlineFinal;
 }
